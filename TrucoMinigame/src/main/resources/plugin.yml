@@ -1,0 +1,15 @@
+main: tm.manuton.TrucoMinigame
+version: 1.0.0
+name: TrucoMinigame
+author: Manuton
+api-version: 1.13
+load: POSTWORLD
+softdepend:
+  - [Vault]
+  - [PlaceholderAPI]
+
+commands:
+    truco:
+        description: Principal command of the plugin TrucoMinigame
+        aliases:
+        - tr
